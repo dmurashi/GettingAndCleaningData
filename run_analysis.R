@@ -78,5 +78,4 @@ run_analysis <- function(){
         all_data_summary <- all_data_summary[order(all_data_summary$SubjectID,all_data_summary$ActivityID),]  # sort the data by Subject and Activity   
         all_data_summary <- all_data_summary[,colnames(all_data_summary) != "ActivityID"]  # drop the ActivityID column
         write.table(all_data_summary,"fitness_summary.txt",row.names=FALSE)  # write the data to a text file
-
 }
