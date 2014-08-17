@@ -33,30 +33,30 @@ Activity
   Type: Character
   Width: 18
   Range:
-    WALKING
-    WALKING_UPSTAIRS
-    WALKING_DOWNSTAIRS
-    SITTING
-    STANDING
-    LAYING
+    - WALKING
+    - WALKING_UPSTAIRS
+    - WALKING_DOWNSTAIRS
+    - SITTING
+    - STANDING
+    - LAYING
 
 Variables
 -------------
   These variables were transformed for all observations to summarize the data to the average for all mean and std deviation:
-      tBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
-      tGravityAcc-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyGyroJerk-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyAccMag
-      tGravityAccMag
-      tBodyAccJerkMag
-      tBodyGyroMag
-      tBodyGyroJerkMag
-      fBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
-      fBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
-      fBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
-      fBodyAccMag
-      fBodyAccJerkMag
-      fBodyGyroMag
-      fBodyGyroJerkMag
+      - tBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
+      - tGravityAcc-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyGyroJerk-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyAccMag
+      - tGravityAccMag
+      - tBodyAccJerkMag
+      - tBodyGyroMag
+      - tBodyGyroJerkMag
+      - fBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
+      - fBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
+      - fBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
+      - fBodyAccMag
+      - fBodyAccJerkMag
+      - fBodyGyroMag
+      - fBodyGyroJerkMag
