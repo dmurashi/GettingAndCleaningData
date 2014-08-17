@@ -51,10 +51,10 @@ For each record it is provided:
       - fBodyGyroMag
       - fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
+The set of variables that were estimated from these signals are:
 
-  - mean(): Mesan value
-  - std(): Standard deviation
+  mean(): Mesan value
+  std(): Standard deviation
 
 ==================================================================
 The script will extract, transform and clean the raw experiement data by performing the following operations:
