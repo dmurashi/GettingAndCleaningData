@@ -64,11 +64,14 @@ run_analysis <- function(){
         write.table(all_data,"fitness_detail.txt")
 
   ## Step 12: create a tidy dataset that contains the average of all measures in the data frame created in Step 11 
-  ##         and write the summary file to the working directory
-       
-        all_data_summary <- aggregate(all_data[,5:66], by=list(SubjectID=all_data$SubjectID, Activity=all_data$Activity), mean)
-        write.table(all_data_summary,"fitness_summary.txt")
-    
+  ##         and write the summary file to the working directory, group by subject and activity 
+     
+        #  collapse all observations to the mean for each variable
+        all_data_summary <- aggregate(all_data[,5:66], by=list(SubjectID=all_data$SubjectID,Group=all_data$Group,ActivityID=all_data$ActivityID, Activity=all_data$Activity), mean)
+        all_data_summary <- all_data_summary[order(all_data_summary$SubjectID,all_data_summary$ActivityID),]  # sort the data by Subject and Activity   
+        all_data_summary <- all_data_summary[,colnames(all_data_summary) != "ActivityID"]  # drop the ActivityID column
+        write.table(all_data_summary,"fitness_summary.txt")  # write the data to a text file
+  
 #   Course Project Deliverables:
 #   You will be required to submit: 
 #       1) a tidy data set as described below
@@ -77,5 +80,3 @@ run_analysis <- function(){
 #       4) Include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
 #   
 }
-
-
