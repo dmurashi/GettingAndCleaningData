@@ -43,6 +43,7 @@ Activity
 Variables
 -------------
   These variables were transformed for all observations to summarize the data to the average for all mean and std deviation:
+
     - tBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
     - tGravityAcc-XYZ (3 measures, 1 each for X, Y, Z)
     - tBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
