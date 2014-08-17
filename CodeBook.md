@@ -19,7 +19,7 @@ Group
   - Type: Character
   - Width: 5
   - Range: 
-  
+
     - test
     - train
   
@@ -29,7 +29,7 @@ Activity
   - Type: Character
   - Width: 18
   - Range:
-    
+
     - WALKING
     - WALKING_UPSTAIRS
     - WALKING_DOWNSTAIRS
