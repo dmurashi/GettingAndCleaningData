@@ -84,8 +84,7 @@ The script will extract, transform and clean the raw experiement data by perform
  Step 11: assign (merge) descriptive names to the activities using the data frame createdin Step 2, 
       write the detail file to the working directory
 
- Step 12: create a tidy dataset that contains the average of all measures in the data frame created in Step 11 
-         and write the summary file to the working directory, group by subject and activity 
+ Step 12: create a tidy dataset that contains the average of all measures in the data frame created in Step 11 and write the summary file to the working directory, group by subject and activity 
      
       - collapse all observations to the mean for each mean and std deviation variable
       - sort the data by Subject and Activity   
