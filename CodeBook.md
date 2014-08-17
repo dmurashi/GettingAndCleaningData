@@ -28,7 +28,6 @@ Activity
   - Type: Character
   - Width: 18
   - Range:
-
     - WALKING
     - WALKING_UPSTAIRS
     - WALKING_DOWNSTAIRS
