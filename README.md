@@ -33,9 +33,9 @@ For each record it is provided:
   - The group the subject belonged to during the experiment. This allows for analysis comparing the measures of the test and train groups
   - mean and std deviation values for the following measures
   
-      tBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
-      tGravityAcc-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
+      - tGravityAcc-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
       tBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
       tBodyGyroJerk-XYZ (3 measures, 1 each for X, Y, Z)
       tBodyAccMag
