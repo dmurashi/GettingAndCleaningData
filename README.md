@@ -53,7 +53,7 @@ For each record it is provided:
 
 The set of variables that were estimated from these signals are:
 
-  - mean(): Mesan values
+  - mean(): Mesan value
   - std(): Standard deviation
 
 ==================================================================
