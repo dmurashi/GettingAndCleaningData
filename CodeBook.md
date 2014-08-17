@@ -2,14 +2,7 @@
 title: "CodeBook"
 author: "Derek Murashige"
 date: "August 17, 2014"
-output: html_document
 ---
-CodeBook.mda - code book that describes the variables, the data, and any transformations or work that you performed to clean up the data. 
-
-variable name
-variable field width
-variable definition
-range of values
 
 DATA DICTIONARY - HUMAN ACTIVITY RECOGNITION USING SMARTPHONES DATASET SUMMARY
  
@@ -33,6 +26,7 @@ Activity
   Type: Character
   Width: 18
   Range:
+  
     - WALKING
     - WALKING_UPSTAIRS
     - WALKING_DOWNSTAIRS
