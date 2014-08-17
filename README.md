@@ -36,20 +36,20 @@ For each record it is provided:
       - tBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
       - tGravityAcc-XYZ (3 measures, 1 each for X, Y, Z)
       - tBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyGyroJerk-XYZ (3 measures, 1 each for X, Y, Z)
-      tBodyAccMag
-      tGravityAccMag
-      tBodyAccJerkMag
-      tBodyGyroMag
-      tBodyGyroJerkMag
-      fBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
-      fBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
-      fBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
-      fBodyAccMag
-      fBodyAccJerkMag
-      fBodyGyroMag
-      fBodyGyroJerkMag
+      - tBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyGyroJerk-XYZ (3 measures, 1 each for X, Y, Z)
+      - tBodyAccMag
+      - tGravityAccMag
+      - tBodyAccJerkMag
+      - tBodyGyroMag
+      - tBodyGyroJerkMag
+      - fBodyAcc-XYZ (3 measures, 1 each for X, Y, Z)
+      - fBodyAccJerk-XYZ (3 measures, 1 each for X, Y, Z)
+      - fBodyGyro-XYZ (3 measures, 1 each for X, Y, Z)
+      - fBodyAccMag
+      - fBodyAccJerkMag
+      - fBodyGyroMag
+      - fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
