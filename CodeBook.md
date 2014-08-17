@@ -1,6 +1,6 @@
 ---
 title: "CodeBook"
-author: "Derek Murashige"
+author: "Derek M"
 date: "August 17, 2014"
 ---
 
