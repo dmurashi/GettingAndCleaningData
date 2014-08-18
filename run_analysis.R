@@ -35,9 +35,8 @@ run_analysis <- function(){
         names(train_data) <-  feature_labels[,2] 
   
   ## Step 6: subset to only include mean() and std() columns using the column indexes from feature_labels 
-        mean_cols <- feature_labels[grep("mean",feature_labels$V2),]  # return only features with "mean" in the name
-        mean_cols <- mean_cols[-grep("Freq",mean_cols$V2),1] #  remove the Freqmean entries (didn't know a more elegant way), return only the column index
-        std_cols <- feature_labels[grep("std",feature_labels$V2),1]  # return only the column index for features with "std" in the name, 
+        mean_cols <- feature_labels[grep("mean\\(\\)",feature_labels$V2),1]  # return only features with "mean" in the name
+        std_cols <- feature_labels[grep("std\\(\\)",feature_labels$V2),1]  # return only the column index for features with "std" in the name, 
         
         test_data <- test_data[,c(mean_cols,std_cols)]  #  remove all measures other than mean() and std()
         train_data <- train_data[,c(mean_cols,std_cols)]  #  remove all measures other than mean() and std()
