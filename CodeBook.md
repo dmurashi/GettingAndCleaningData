@@ -68,6 +68,6 @@ NOTE: These variables were transformed for all observations to summarize the dat
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mesan value
-std(): Standard deviation
+ - mean(): Mesan value
+ - std(): Standard deviation
 
